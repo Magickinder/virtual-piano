@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.white-keys {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-weight: bold;
+}
+
+.white-keys kbd{
+    display: flex;
+    background-color: white;
+    width: 3vw;
+    height: 20vh;
+    border: 0.15rem solid gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-keys {
+    display: flex;
+    font-weight: bold;
+}
+
+.black-key-w {
+    display: flex;
+    position: absolute;
+    left: 10%;
+}
+
+.black-key-e {
+    display: flex;
+    position: absolute;
+    left: 24%;
+}
+
+.black-key-t {
+    display: flex;
+    position: absolute;
+    left: 53%;
+}
+
+.black-key-y {
+    display: flex;
+    position: absolute;
+    left: 67%;
+}
+
+.black-key-u {
+    display: flex;
+    position: absolute;
+    left: 81%;
+}
+
+
+.black-keys kbd {
+    display: flex;
+    width: 1.8vw;
+    height: 13vh;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
